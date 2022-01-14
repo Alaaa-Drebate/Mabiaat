@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Mahmoud Ahmad"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@android:color/black"
+            android:alpha="0.6"
+            android:layout_below="@id/name"/>
+
+        <TextView
+            android:id="@+id/month_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="@string/month_title"
+            android:layout_below="@id/name"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"/>
+
+        <TextView
+            android:id="@+id/year_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/year_title"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@id/name"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_toEndOf="@id/month"/>
+
+        <TextView
+            android:id="@+id/month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="9"
+            android:layout_below="@id/name"
+            android:layout_marginEnd="8dp"
+            android:layout_toEndOf="@id/month_title"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="2020"
+            android:layout_below="@+id/name"
+            android:layout_toEndOf="@id/year_title"
+            android:layout_marginStart="16dp"
+            android:layout_margin="8dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/north_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/month_title"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:text="@string/north"/>
+
+        <TextView
+            android:id="@+id/north"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/month_title"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_toEndOf="@id/north_title"
+            android:textSize="14sp"
+            android:text="1000000"/>
+
+        <TextView
+            android:id="@+id/south_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/month_title"
+            android:layout_toEndOf="@id/north"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:text="@string/south"/>
+
+        <TextView
+            android:id="@+id/south"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/month_title"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/south_title"
+            android:textSize="14sp"
+            android:text="1000000"/>
+
+
+        <TextView
+            android:id="@+id/east_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/north_title"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:text="@string/east"/>
+
+        <TextView
+            android:id="@+id/east"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/north_title"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_toEndOf="@id/east_title"
+            android:textSize="14sp"
+            android:text="1000000"/>
+
+        <TextView
+            android:id="@+id/west_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/north_title"
+            android:layout_toEndOf="@id/east"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:text="@string/west"/>
+
+        <TextView
+            android:id="@+id/west"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/north_title"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/west_title"
+            android:textSize="14sp"
+            android:text="1000000"/>
+
+        <TextView
+            android:id="@+id/lebanon_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/east_title"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:text="@string/lebanon"/>
+
+        <TextView
+            android:id="@+id/lebanon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/east_title"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/lebanon_title"
+            android:textSize="14sp"
+            android:text="1000000" />
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

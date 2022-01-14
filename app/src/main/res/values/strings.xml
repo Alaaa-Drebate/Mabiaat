@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--for configuration-->
+    <string name="nav_open" translatable="false">Open</string>
+    <string name="nav_close" translatable="false">Close</string>
+
+    <string name="app_name">Mabiaat</string>
+    <string name="representatives">Sales Representatives</string>
+    <string name="company_name">Our Company</string>
+    <string name="add_representative">New Representative</string>
+    <string name="our_representatives">Our Representatives</string>
+    <string name="search_sales">Search in Sales</string>
+    <string name="search_commissions">Search in commissions</string>
+    <string name="rep_name">Representative Name</string>
+    <string name="representative_id">Representative ID</string>
+    <string name="representative_name">Full Name</string>
+    <string name="choose_main_area">Choose main area</string>
+    <string name="north">North</string>
+    <string name="south">South</string>
+    <string name="east">East</string>
+    <string name="west">Coast</string>
+    <string name="lebanon">Lebanon</string>
+    <string name="submit">Submit</string>
+    <string name="update_info">Update Info</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="main_area">Main area :</string>
+    <string name="add_sales_report">Add sales report</string>
+    <string name="month_title">Month</string>
+    <string name="year_title">Year</string>
+    <string name="north_area">North Area</string>
+    <string name="south_area">South Area</string>
+    <string name="east_area">East Area</string>
+    <string name="west_area">Coast Area</string>
+    <string name="are_you_sure_replace">there is another record for the chosen month and year are you sure you want to replace it ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="commission">Commission</string>
+    <string name="created_at">Created At</string>
+    <string name="total_commission">Total Monthly Commission</string>
+
+    <string-array name="months">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="months_search">
+        <item>-1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>12</item>
+    </string-array>
+
+</resources>

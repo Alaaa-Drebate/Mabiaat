@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mabiaat">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launch"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launch_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CommissionDetailsActivity"></activity>
+        <activity android:name=".AddSalesReportActivity" />
+        <activity android:name=".UpdateRepresentativeData" />
+        <activity android:name=".RepresentativeDetailsActivity" />
+        <activity android:name=".SearchCommissionsActivity" />
+        <activity android:name=".SearchSalesActivity" />
+        <activity android:name=".OurRepresentativesActivity" />
+        <activity android:name=".AddRepresentativeActivity" />
+        <activity android:name=".WelcomeActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
